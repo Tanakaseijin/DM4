@@ -11,7 +11,7 @@ int main(){
   
   printf("Who are you?\n> ");
   scanf("%s",str);
-  printf("Hello, %s",str);
+  printf("Hello, %s\n",str);
   
   printf("Tossing a coin...\n");
   for( i=0; i<R; i++ ){
